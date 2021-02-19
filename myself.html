@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta name="Fake Blog" content="creating a fake blog">
+  <title>My first blog</title>
+  </head>
+    <body body style="background-color:powderblue;">
+        <h1 style="text-align:center;">LONG VU<br>
+        
+        <img src="self.jpg" width="200" length="200"></h1>
+        <div>
+            <h2>Introdution</h2>
+            <p>Hi everybody!! My name is Long Thien Vu. I am 41 years old. And today I will write my first blog. But first, something about me: I came to the great US of A from Vietnam in 1993 when I was just only 13 years old.
+            I am currently a US citizen and I considered  myself as a US patriot. I love and appreciate this country with all my heart for it nurtured me, raised
+            me and give me the freedom. And when the time come, I would, definitely, defend the US and its constitutions against any enemies.</p>
+            <p style="text-align: center;"><img src="usa.jpeg">
+            </p>
+        </div>
+        <div>
+            <h1 style="text-align:center;">My Achievements</h1>
+            <p>Well, I am a guy who is very lazy but also very competitive in life. Either it's school, work or play. I would like to come out as one of the bests.</p>
+            <table style="border: 1px solid black;">
+                <thead style="border: 1px solid black;">
+                    <tr style="border: 1px solid black;">
+                        <th style="border: 1px solid black;">Year</th>
+                        <th style="border: 1px solid black;">Event</th>
+                        <th style="border: 1px solid black;">Award</th>
+                    </tr>
+                </thead>
+                <tbody style="border: 1px solid black;">
+                    <tr style="border: 1px solid black;">
+                        <td style="border: 1px solid black;">2000-2010</td>
+                        <td style="border: 1px solid black;">Martial Art</td>
+                        <td style="border: 1px solid black;">5 times 1st place</td>
+                    </tr>
+                    <tr style="border: 1px solid black;">
+                        <td style="border: 1px solid black;">1993-1999</td>
+                        <td style="border: 1px solid black;">Art</td>
+                        <td style="border: 1px solid black;">Gold medal every year</td>
+                    </tr>
+                    <tr style="border: 1px solid black;">
+                        <td style="border: 1px solid black;">1993-1999</td>
+                        <td style="border: 1px solid black;">Math</td>
+                        <td style="border: 1px solid black;">Top 10 PA student</td>
+                    </tr>
+                    <tr style="border: 1px solid black;">
+                        <td style="border: 1px solid black;">1997-1999</td>
+                        <td style="border: 1px solid black;">Computer</td>
+                        <td style="border: 1px solid black;">Best of class</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h1 style="text-align:center;">Special Events of My Life</h1>
+            <ul>
+                <li>
+                    1983 - Dad passed away
+                </li>
+                <li>
+                    1993 - Moved to US
+                </li>
+                <li>
+                    2010 - Convenience Store Owner
+                </li>
+                <li>
+                    2014 - Commerical Building Owner
+                </li>
+                <li>
+                    2015 - Sold off everything and travel
+                </li>
+                <li>
+                    2017 - Married
+                </li>
+                <li>
+                    2019 - First daughter
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h1 style="text-align:center;">What about you?</h1>
+            <p>Tell me something about yourself by fill in the boxes. Thank you.</p>
+            <form action="process.php" method="post">
+                <table>
+                    <p>
+                        <tr>
+                            <td><label for="first_name">First Name</label></td>
+                            <td><input type="text" id="first_name" name="first_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="last_name">Last Name</label></td>
+                            <td><input type="text" id="last_name" name="last_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="text" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="birthday">Birthday</label></td>
+                            <td><input type="text" id="birthday" name="birthday"></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label></td>
+                                
+                            <td><input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label></td>
+                            <td><input type="radio" id="decline" name="gender" value="decline">
+                            <label for="decline">Other</label></td>
+                        </tr>
+                    </p>    
+                </table>    
+                <p>A short description about yourself<br>
+                <textarea name="description"></textarea></p>
+                <p><label for="Language">Favorite Language</label>
+                    <select id="Language">
+                      <option value="html">HTML</option>
+                      <option value="CSS">CSS</option>
+                      <option value="JS">JavaScript</option>
+                    </select>
+                </p>
+                <input type="submit" value="submit">
+                
+            </form>
+        </div>
+        
+    </body>
+</html>
